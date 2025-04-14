@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #BDDDE4;
+  color: #333;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.create_form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.create_form input {
+  width: 300px;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background-color: #9EC6F3;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.create_form input::placeholder {
+  color: #f0f0f0;
+}
+
+.create_form button {
+  padding: 12px 24px;
+  background-color: #9FB3DF;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  height: 100%;
+}
+
+.create_form button:hover {
+  background-color: #7d99c4;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 345px;
+  background-color: #9EC6F3;
+  color: white;
+  padding: 8px 12px;
+  margin-top: 12px; 
+  border-radius: 16px;
+  transition: background-color 0.3s ease;
+  font-size: 1rem; 
+  font-weight: 600;
+  min-height: 45px; 
+}
+
+.task:hover {
+  background-color: #8bb5e3;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.line_through {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.checkbox .icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #FFF1D5;
+}
+
+.task div span {
+  margin: 0px 5px;
+}
+
+.task div .icon {
+  cursor: pointer;
+  font-size: 18px;
+  color: #FFF1D5;
+  transition: transform 0.2s ease;
+}
+
+.task div .icon:hover {
+  transform: scale(1.1);
+}
+
+
+.login_form {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login_form h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.login_form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: #9EC6F3;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.login_form input::placeholder {
+  color: #f0f0f0;
+}
+
+.login_form button {
+  width: 100%;
+  padding: 6px 12px;
+  background-color: #9FB3DF;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 120px;
+  transition: background-color 0.3s ease;
+}
+
+.login_form button:hover {
+  background-color: #7d99c4;
+}
+
+.login_form .error {
+  color: red;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+
+.logout_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+}
+
+.logout_button {
+  padding: 6px 14px;
+  background-color: #f05d5e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout_button:hover {
+  background-color: #d94344;
+}
